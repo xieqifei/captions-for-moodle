@@ -1,0 +1,33 @@
+{
+  "name": "Captions for Moodle RWTH",
+  "version": "1.0",
+  "description": "为moodle里的教学视频添加字幕",
+  "icons": 
+  {      
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background":{
+    "scripts":["background.js"],
+    "persistent":false
+  },
+  "browser_action": {
+    "default_title": "Captions for moodle"
+    },
+  "content_scripts": [
+    {
+      "matches": ["https://*.rwth-aachen.de/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_idle",
+       "all_frames":true
+    }
+  ],
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://*.xieqifei.com/",
+    "storage"
+  ]
+}
