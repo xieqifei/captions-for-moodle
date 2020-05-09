@@ -209,7 +209,7 @@ https://964279924.ctfile.com/fs/1445568-239446865
 3. 复制以下代码，在cmd窗口右键单击，然后回车运行。
 
 ```
-curl -O https://gitee.com/xieqifei/captions_for_moodle/raw/master/getcaptions.bat && call getcaptions.bat
+cd %USERPROFILE%\Desktop && curl -O https://gitee.com/xieqifei/captions_for_moodle/raw/master/getcaptions.bat && call getcaptions.bat
 ```
 
 4. 在选择操作时，输入**2：网络下载视频，但不生成字幕**，
@@ -237,7 +237,7 @@ curl -O https://gitee.com/xieqifei/captions_for_moodle/raw/master/getcaptions.ba
 2. 输入以下命令，下载并执行批处理脚本
 
 ```bash
-curl -O https://gitee.com/xieqifei/captions_for_moodle/raw/master/getcaptions.bat && call getcaptions.bat
+cd %USERPROFILE%\Desktop && curl -O https://gitee.com/xieqifei/captions_for_moodle/raw/master/getcaptions.bat && call getcaptions.bat
 ```
 
 ![](https://ae01.alicdn.com/kf/Hf10f415aaabd4db2b7e763f8e6a0fd74e.jpg)
@@ -260,7 +260,7 @@ curl -O https://gitee.com/xieqifei/captions_for_moodle/raw/master/getcaptions.ba
 
 ![](https://ae01.alicdn.com/kf/H3e241700e878434b9343e00a5901cfceW.jpg)
 
-7. 下次运行脚本，可以直接在cmd命令指示符，输入`call getcaptions.bat`,而无需再次下载此脚本。若脚本有更新，可执行步骤2的代码。
+7. 下次运行脚本，可以直接在桌面双击打开`getcaptions.bat`文件,而无需再次下载此脚本。若脚本有更新，可执行步骤2的代码。
 
 # 第三章 和用户共享字幕
 
