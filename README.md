@@ -15,7 +15,7 @@
 
 ## 1.3 插件安装
 
-1. 下载插件https://lanzous.com/icb9h1a
+1. 下载插件https://lanzous.com/ick15oh
 
 2. 解压插件到桌面。获得以captions-for-moodle为名的文件夹。
 
